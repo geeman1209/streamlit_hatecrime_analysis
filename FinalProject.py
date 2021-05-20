@@ -40,7 +40,7 @@ st.markdown("""Analyzing hate crimes on a national scale from 2010 to 2019 is no
             bias_desc (variables were consolidated), and offense_name(variables were consolidated).
             """)
 
-st.markdown(""" The dataset below is the final result after all the necessary data cleaning:  """)
+#st.markdown(""" The dataset below is the final result after all the necessary data cleaning:  """)
 
 
 
@@ -190,10 +190,10 @@ df3 = merge_coordinates(df2, coordinates)
 
 dfinal = df3.dropna()
 
-st.markdown("The clean data frame that will be used for the visualizations:")
+#st.markdown("The clean data frame that will be used for the visualizations:")
 
 
-st.dataframe(dfinal)
+#st.dataframe(dfinal)
 st.subheader("Visualizations and Explanations")
 
 ###############################################################################
