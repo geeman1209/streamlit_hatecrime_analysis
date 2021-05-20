@@ -317,30 +317,30 @@ st.markdown("---")
 ######Visualization 5###########
 
 
-fig6 = px.parallel_categories(dfinal, dimensions=['BIAS_DESC','DATA_YEAR', 'REGION_NAME', 'OFFENSE_NAME'], 
-                color_continuous_scale=px.colors.sequential.Inferno
-                )
-fig6.update_layout(
-        height=600,
-        width=1100,
-        dragmode='lasso', 
-        hovermode='closest')
-st.plotly_chart(fig6)
+#fig6 = px.parallel_categories(dfinal, dimensions=['BIAS_DESC','DATA_YEAR', 'REGION_NAME', 'OFFENSE_NAME'], 
+#               color_continuous_scale=px.colors.sequential.Inferno
+#                )
+#fig6.update_layout(
+ #       height=600,
+  #      width=1100,
+   #     dragmode='lasso', 
+    #    hovermode='closest')
+#st.plotly_chart(fig6)
 
 
-expander4 = st.beta_expander("Click for More Information", expanded=False)
-with expander4:
-    st.markdown("""
-                The Parallel Category Diagram visualizes the relationship between the 
-                categorical variables. In the case of this diagram, I selected anti-bias, data year, and offense in relation 
-                to the anti-bias crimes.The rectangles shows the frequency of the variable and the ribbon connecting the various 
-                rectangles show the relative frequency.
-                
-                There are interesting relationships to be observed. Anti-Black and Anti-Gay bias are subjected to a lot proportion of 
-                assaults and intimidation. While Anti-Jewish Bias is subjected to a higher degree of property crime.
-                """)
+#expander4 = st.beta_expander("Click for More Information", expanded=False)
+#with expander4:
+ #   st.markdown("""
+  #              The Parallel Category Diagram visualizes the relationship between the 
+   #             categorical variables. In the case of this diagram, I selected anti-bias, data year, and offense in relation 
+    #            to the anti-bias crimes.The rectangles shows the frequency of the variable and the ribbon connecting the various 
+     #           rectangles show the relative frequency.
+      #          
+       #         There are interesting relationships to be observed. Anti-Black and Anti-Gay bias are subjected to a lot proportion of 
+        #        assaults and intimidation. While Anti-Jewish Bias is subjected to a higher degree of property crime.
+         #       """)
 
-st.markdown("---------------------------------------------------------------")
+#st.markdown("---------------------------------------------------------------")
 
 
 ######Visualization 6 & Visualization 7#########
