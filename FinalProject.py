@@ -35,7 +35,7 @@ st.subheader("The Data Collection and Cleaning Process")
 st.markdown("""Analyzing hate crimes on a national scale from 2010 to 2019 is not an easy task for a variety of reasons. 
             The data set is large and requires cleaning, transformation, and elimination of extraneous columns, in an effort to reduce the size and optimize loading times. 
             
-            In order to create and condense some of the visualizations columns needed transformation; 
+            In order to create and condense some of the visualizations, columns needed transformation; 
             target_loc, created for the purpose of using geopandas to find the coordinates, latitude and longitude, 
             bias_desc (variables were consolidated), and offense_name(variables were consolidated).
             """)
