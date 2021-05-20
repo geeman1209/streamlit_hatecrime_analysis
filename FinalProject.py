@@ -48,7 +48,7 @@ st.markdown(""" The dataset below is the final result after all the necessary da
 ######Retrieve Data and Cleanup###########
 
 #Create a function that wil return the dataframe
-@st.cache
+
 def get_data():
     dataFrame = pd.read_csv('./hate_crime.csv')
     return dataFrame
