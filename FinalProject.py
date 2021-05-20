@@ -246,7 +246,8 @@ with colB:
     g_df = g_df.reset_index()
         
     fig2 = px.line(g_df, x="DATA_YEAR", y="BD_COUNT", color="BIAS_DESC")
-    fig2.update_traces(mode = 'markers+lines')   
+    fig2.update_traces(mode = 'markers+lines')
+    fig2.update_layout(title= "Anti-Bias Total Count from 2010 - 2019")
     st.plotly_chart(fig2)
 
 
